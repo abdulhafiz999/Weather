@@ -107,13 +107,13 @@ h1 {
 }
 
 .search-area {
-  margin-top: 20px;
+  margin-top: 21px;
 }
 
 input {
   padding: 10px;
   border-radius: 10px;
-  border-color: #063B6B;
+  border-color:rgb(13, 75, 133);
 }
 
 button {
