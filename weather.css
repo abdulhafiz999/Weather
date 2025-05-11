@@ -1,0 +1,148 @@
+/* * {
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./cloud-of-bunch-of-7372799_1280\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  background:rgb(199, 198, 196);
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 30vh;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #063B6B;
+}
+
+.search-area {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #063B6B;
+}
+
+button {
+  background: #063B6B;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background:rgb(133, 135, 137);
+  transform: scale(1.1);
+}
+
+#weatherInfo {
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+} */
+
+* {
+  margin: 0;
+  box-sizing: border-box;  /* Combines content sizes for all element*/
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./cloud-of-bunch-of-7372799_1280\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  background: #CECCC6;
+  padding: 20px 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  max-height: fit-content;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #063B6B;
+}
+
+.search-area {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #063B6B;
+}
+
+button {
+  background: #063B6B;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background:rgb(40, 139, 220);
+  transform: scale(1.1);
+}
+
+#weatherInfo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#weatherInfo h3 {
+  color: #063B6B;
+}
+
+#weatherInfo p {
+  font-weight: bold;
+  font-size: 18px;
+}
